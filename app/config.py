@@ -30,11 +30,11 @@ def init(app):
     app.config.API_BASEPATH = "/"
     app.config.API_SCHEMES = [settings.SCHEME]
     app.config.API_VERSION = utils.meta.version()
-    app.config.API_TITLE = "Memegen.link"
-    app.config.API_CONTACT_EMAIL = "support@maketested.com"
-    app.config.API_LICENSE_NAME = "View the license"
+    app.config.API_TITLE = "meme.ojanbot.tk"
+    app.config.API_CONTACT_EMAIL = "ojancoders@gmail.com"
+    app.config.API_LICENSE_NAME = "Github Developer"
     app.config.API_LICENSE_URL = (
-        "https://github.com/jacebrowning/memegen/blob/main/LICENSE.txt"
+        "https://github.com/FznXSec404"
     )
     app.config.API_SECURITY = [{"ApiKeyAuth": []}]
     app.config.API_SECURITY_DEFINITIONS = {
